@@ -61,7 +61,7 @@ class Client:
         try:
             response = requests.request(
                 http_method, url,
-                verify=self.getCACert(),
+                verify=False,
                 headers={
                     'Accept': 'application/json',
                     'Authorization': 'Bearer ' + self.api_key,
