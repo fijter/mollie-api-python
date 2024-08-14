@@ -12,7 +12,7 @@ setup(
     keywords=['mollie', 'payment', 'service', 'ideal', 'creditcard', 'mistercash', 'bancontact', 'sofort',
               'sofortbanking', 'sepa', 'bitcoin', 'paypal', 'paysafecard', 'podiumcadeaukaart', 'banktransfer',
               'direct debit', 'belfius', 'belfius direct net', 'refunds', 'payments', 'gateway'],
-    url='https://github.com/mollie/mollie-api-python',
+    url='https://github.com/fijter/mollie-api-python',
     install_requires=[
         'requests',
     ],
